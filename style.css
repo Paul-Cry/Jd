@@ -1,0 +1,127 @@
+@font-face{
+	font-family: 'Robot';
+	src: url('fonts/Roboto-Regular.ttf');
+}
+
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Robot';
+}
+
+
+.header_background{
+	padding: 0;
+	margin: 0;
+	border: 1px solid red;
+	width: 100%;
+	height: 900px;
+	background: url('image/background.png');
+}
+
+nav{
+
+	width: 100%;
+	display: flex;
+	height: 55px;
+	background: linear-gradient(90deg, rgba(255, 39, 39, 0.91) 0%, rgba(39, 87, 255, 0.91) 100%);
+	font-size: 150%;
+}
+
+
+
+a{
+	text-decoration: none;
+}
+
+
+.container {
+	width: 1170px;
+	position: relative;
+	margin: 0px auto;
+}
+
+
+.postition{
+	height: 55px;
+	width: 870px;
+	margin: 0px 0px 0px 25.6%;
+	display: flex;
+	justify-content: space-around;
+	padding: 1% 0;
+}
+
+.link_header{
+	color:#FFFFFF;
+	font-weight: 600;
+	font-size: 80%;
+}
+
+.Main{
+	margin: 24% 0 0 0;
+}
+
+.Main section, img{
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	color: #fff;
+}
+
+.test-0-logo{
+	margin: 0px 0px 0px 43%;
+}
+
+.header__title{
+	font-size: 48px;
+	margin-top: 1%;
+}
+
+
+
+.header__text{
+	font-size: 32px;
+	margin-top: 101px;
+}
+
+.win_One {
+	padding: 0;
+	margin: 0;
+	height: 900px;
+	background: url('image/wind_one.png')
+}
+
+.One_square{
+	width: inherit;
+	height: inherit;
+	/*background: #000;*/
+}
+
+span{
+	display: block;
+}
+
+.one__title {
+	margin-top: 5%;
+	font-size: 36px;
+	text-align: center;
+}
+
+.one__Blocks{
+	margin-top: 17%;
+}
+
+.one_block1 {}
+
+.one_text {}
+
+.one__img {}
+
+.one_block2 {
+	margin-left: 29.44%;
+}
+
+.one_block3 {
+	margin-left: 76.2%;
+}
