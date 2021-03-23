@@ -113,7 +113,8 @@ section{
 
 .one_block2{
 	margin-top: 10%;
-	margin-left: 40%;
+	transform-duration: 5s;
+	transform: translate(0px , 0px);
 }
 
 .one_block3{
@@ -128,6 +129,7 @@ section{
 
 .one_text{
 	margin-top: 10%;
+
 }
 
 .position__two{
