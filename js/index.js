@@ -1,8 +1,23 @@
-let two = document.querySelectorAll('.one_block2');
-let thee = document.querySelectorAll('.one_block3');
-let y = window.pageYOffset;
+let stock =document. querySelectorAll('.stock');
+
+let left = document.querySelector('.arrow1');
+let right = document.querySelector('.arrow2');
 
 
-window.onscroll= function(){  // 36 
-    two.style.margin = '${y}px';
-}
+left.addEventListener('click', function(){
+	for( let element of stock){
+		element.style.animation = 'left 5s linear';
+		element.style.animationFillMode = 'forwards';
+	}
+	
+})
+
+right.addEventListener('click', function(){
+	for( let element of stock){
+		element.style.animation = 'right 5s linear';
+		element.style.animationFillMode = 'forwards';
+	}
+})
+
+console.log(left);
+console.log(324234);
