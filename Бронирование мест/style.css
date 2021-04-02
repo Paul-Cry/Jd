@@ -83,8 +83,20 @@ nav{
 
 .position__three{
 	width: 150vh;
-	margin-left: 12%;
+	margin-left: 5%;
 	display: flex;
+	flex-direction: column;
+	justify-content: cener;
+
+}
+
+
+.position__person{
+	width: 150vh;
+	height: 40%;
+	margin-left: 5%;
+	display: flex;
+	flex-direction: column;
 	justify-content: cener;
 }
 
@@ -100,6 +112,18 @@ nav{
 	justify-content: center;
 	flex-direction: column;
 	position: relative;
+}
+
+.person_block{
+	height: 500px;
+	border-radius: 5px;
+	display: flex;
+	background-color: rgba(0,0,0,0.5);
+	margin-top: 3%;
+	display: flex;
+	flex-direction: column;
+	justify-content: cener;
+	border: 1px solid red;
 }
 
 .title{
@@ -120,8 +144,8 @@ nav{
 }
 .number_train{
 	display: flex;
+	background: #fff;
 }
-
 
 .train_elemnts{
 	margin-top: 4vh;
@@ -177,4 +201,85 @@ nav{
 	border-radius: 0.3vw;
 	background: hsla(252, 90%, 16%, 0.815);	
 	color: white;
+}
+
+
+
+.person_text {
+	font-size: 1.5em
+
+}
+.count_person {
+	display: flex;
+	margin-top: 3%;
+	align-items: center;
+
+}
+
+nput::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.input_person {
+	border-radius: 5px;
+	background: #fff;
+	appearance: none;
+	width: 5%;
+	height: 85%;
+	text-align: center;
+	font-size: 1.2em;
+}
+.collection_peson{
+	display: flex;
+	flex-direction: column;
+}
+
+.info_person {
+	display: flex;
+	margin-top:5%;
+}
+.test-5-name {
+
+}
+.test-5-add{
+	margin-left: 4%;
+}
+
+.input{
+	height: 80%;
+	width: 20%;
+	font-size: 150%;
+	border: 1px solid #f0f0f0f0;
+	border-radius: 5px;
+	margin-left: 1%;
+}
+
+.number{
+	outline-style: none;
+	font-size: 150%;
+	width: 3%;
+	height: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	background: #fff;
+}
+.test-5-last {}
+.test-5-dob {}
+.test-5-doc {}
+.person_button {}
+.test-5-book{
+	width: 15%;
+	height: 70%;
+		
+	margin-top: 3%;
+	margin-left: 70%;
+	background: #fff;
+	border-radius: 3px;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
