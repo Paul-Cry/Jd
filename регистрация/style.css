@@ -1,0 +1,131 @@
+@font-face{
+	font-family: 'Robot';
+	src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Robot-bold';
+	src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face{
+	font-family: 'Robot-medium';
+	src: url('../fonts/Roboto-Medium.ttf');
+}
+
+body{
+	font-family: 'Robot';
+
+	background-repeat: no-repeat;
+	background: linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.3) 0%),  ;
+	background-size: cover;
+}
+input:focus{
+	outline: none;
+}
+login{
+	border-bottom: 3px solid rgba(255, 0, 0, 0.6);
+}
+
+.positon {
+	width: 90vw;
+	height: 100vh;
+	display: flex;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+}
+
+.right {
+	width: 65%;
+	height:70%;
+	color: white;
+	border-radius: 2px;
+
+	box-shadow: 0 0 50px  10px hsla(252, 90%, 16%, 0.815);
+	background: linear-gradient(-45deg, rgba(255, 0, 0, 0.6) 50%, hsla(252, 90%, 16%, 0.6) 50%),url(../images/c1_1769069.jpg) no-repeat;
+	background-size: cover;
+}
+.text_goroup{
+	height: 60px;
+	display: flex;
+	border-bottom: 1px solid;
+}
+
+.login{
+	border-bottom: 3px solid rgba(255, 0, 0, 0.6);
+}
+
+.text {
+	font-family: 'Robot-medium';
+	height: 23px;
+	margin-top: 5%;
+	margin-bottom: 2%;
+	font-size: 1.2em;
+	margin-top: 4%;
+	margin-left: 5%;
+	cursor: default;
+}
+
+
+.window_sign {
+	margin: auto;
+	transform: translate(0, 20px);
+	display: flex;
+	width: 100%;
+	height: 60%;
+}
+
+.one_column, .two_column{
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.two_column{
+	margin-left: 240px;
+}
+.one_column{
+	margin-left: 25px;
+}
+
+.window_sign input{
+	margin-top: 1%;
+	font-size: 1.25em;
+	border-radius: 4px;
+	border: 1px solid ;
+	border: 1px solid #f0f0f0f0;
+	margin-left: 1%;
+	width: 80%;
+	padding-left: 3vh;
+}
+
+.sigt_1, .sigt_2 {
+	margin-top: 6%;
+}
+.line{
+	/*margin-top: 4%;*/
+}
+.line_text {
+	margin-bottom: 1%;
+	margin-left: 1%;
+	font-size: 1em;
+}
+
+
+.button {
+	margin: 0 auto;	
+	display: flex;
+	transform: translate(0, 50px);
+	align-items: center;
+	justify-content: center;
+	font-size: 0.8em;
+	width: 20%;
+	height: 8%;
+	color: black;
+	border-radius: 3px;
+	background: #fff;
+	padding: 3px 5px;
+	cursor: default;
+
+}
+

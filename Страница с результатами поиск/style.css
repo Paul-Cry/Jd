@@ -14,13 +14,17 @@
 
 
 
+
 body{
 	font-family: 'Robot';
 	margin: 0 auto;
 	background: #E8E8E8;
 	background:  rgba(240, 255, 255,0.8);
+	background-repeat: no-repeat;
+	background: linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.3) 0%),  url(../images/im-196106.jpeg) no-repeat;
 	background-size: cover;
 }
+
 
 
 header{
@@ -90,24 +94,22 @@ nav{
 
 
 .ser_block{
+	margin: auto;
 	height: 20vh;
 	width: 150vh;
 	display: block;
 	margin-top: 2vw;
-	background-color: rgba(0,0,0,0.5);
-	border-radius: 30px;
+	background-color: hsla(252, 90%, 16%, 0.6);
+	border-radius: 10px;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	position: relative;
 }
 
-.title{
-	color: black;
-}
 
 .position__three {
-
+	margin: auto;
 }
 
 .train {
@@ -120,19 +122,33 @@ nav{
 }
 .number_train{
 	display: flex;
+	margin-left: 2%;
 }
-.choise{
+.choose{
 	display: flex;
-	margin-right:  2%;
+	margin-left:  1%;
+	border-radius: 3px;
 }
+
+.choose:focus{
+	outline: none;
+}
+
+ .choose option { 
+ 	font-weight:normal 
+	background-position: left .7em top 50%, 0 0; 
+	padding: .6em .8em .5em 1.4em; 
+}
+
 .chise_there, .chise_back{
 	display: flex;
-	margin-right:  15%;
+	margin-right:  20%;
 }
 
 
 .train_elemnts{
-	margin-top: 4vh;
+	margin: auto;
+	margin-top: -1%;
 	display: flex;
 	width: 100%;
 	align-items: center;
@@ -169,13 +185,3 @@ nav{
 	text-align: center;
 }
 .test-4-fp {}
-.button {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 70%;
-	height: 100%;
-	border-radius: 0.3vw;
-	background: hsla(252, 90%, 16%, 0.815);	
-	color: white;
-}

@@ -43,10 +43,13 @@ nav{
 .container{
 	width: 1170px;
 	margin: 0 auto;
+	height: 100%
 }
 
 .block__nav{
 	padding: 0 auto;
+	height: 100%;
+
 }
 
 .test-0-logo{
@@ -61,14 +64,16 @@ nav{
 .position{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	margin-left: 59%;
+	height: 100%;
 }
 
 
 .window_three{
 	margin-top: 3vh;
 	display: block;
-	height: 100vh;
+	height: 800px;
 	width: 100%;
 	background-size: cover;
 	color: white;
@@ -77,9 +82,9 @@ nav{
 } 
 
 .three_title{
-	font-size:200%;
-	margin-left: 2vw;
-	padding-top:5%;
+	font-size:180%;
+	margin-left: 3%;
+	padding-top: 2%;
 
 }
 
@@ -93,29 +98,24 @@ nav{
 }
 
 
-.position__person{
-	width: 150vh;
-	height: 40%;
-	margin-left: 5%;
-	display: flex;
-	flex-direction: column;
-	justify-content: cener;
-}
 
 
 
 .ser_block{
-	height: 20vh;
-	width: 150vh;
-	display: block;
+	position: relative;
+	top: 50%;
+	left: 0;
+	transform: translate(0, -50%);
+	margin: 0 auto;
+	height: 350px;
+	width: 90%;
 	margin-top: 1vw;
 	background-color: hsla(252, 90%, 16%, 0.6);
 	border-radius: 30px;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	position: relative;
-}
+	}
 
 .person_block{
 	height: 500px;
@@ -144,6 +144,7 @@ nav{
 }
 .number_train{
 	display: flex;
+	background: #fff;
 }
 
 .train_elemnts{
@@ -285,4 +286,67 @@ input[type='number'] {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.place {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.cupe_position, .bok_positon{
+	
+	display: flex;
+}
+
+.bok_positon{
+	margin-top: 5%;
+	justify-content: space-around;
+}
+.cupe, .bok{
+	margin: auto;
+	display: flex;
+}
+.cupe_ColumnOne {
+	display: flex;
+	flex-direction: column;
+}
+.column_place, .bok_place {
+	width: 30px;
+	height: 30px;
+	border: 1px solid white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.bok_place, .column_place {
+	cursor: default;
+	border: 1px solid white;
+	transition: all 0.2s linear;
+}
+
+.bok_place:hover,	 .column_place:hover {
+	background: black;
+}
+
+.next{
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	width: 140px;
+	height: 40px;
+	vertical-align: center;
+	border: 2px solid #808080;
+	 outline: none;
+	transition: all 0.5s linear;
+}
+
+.next:hover{
+	background: #fff;
+	color: black;
+	cursor: default;
 }

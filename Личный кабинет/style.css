@@ -58,10 +58,21 @@ nav{
 .logo{
 	float: left;
 }
+
+.nav_text{
+	padding: 10px 15px;
+	white-space: nowrap;
+}
 .position{
 	display: flex;
 	justify-content: space-between;
 	margin-left: 59%;
+}
+
+.nav_textBut{
+	background: white;
+	color: black;
+	
 }
 
 
@@ -77,14 +88,17 @@ nav{
 } 
 
 .three_title{
-	font-size:200%;
+	width: 100%;
+	font-size:120%;
 	margin-left: 2vw;
-	padding-top:5%;
-
+	display: flex;
+	justify-content: center;}
+.title_ser{
+	margin-top: 20px;
 }
-
 .position__three{
-	width: 150vh;
+	width: 100%;
+	margin-top: 2%;
 	margin-left: 5%;
 	display: flex;
 	flex-direction: column;
@@ -103,14 +117,14 @@ nav{
 }
 
 
-
 .ser_block{
-	height: 20vh;
+	margin: auto;	
+	height: 210px;
 	width: 150vh;
 	display: block;
 	margin-top: 1vw;
 	background-color: hsla(252, 90%, 16%, 0.6);
-	border-radius: 30px;
+	border-radius: 10px;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -118,17 +132,15 @@ nav{
 }
 
 .person_block{
-	height: 500px;
-	border-radius: 5px;
+	height: 300px;
+	border-radius: 10px;
 	display: flex;
 	background-color:  hsla(252, 90%, 16%, 0.6);;
 	margin-top: 3%;
 	display: flex;
 	flex-direction: column;
 	justify-content: cener;
-	border: 1px solid red;
 }
-
 
 .position__three {
 
@@ -147,14 +159,22 @@ nav{
 }
 
 .train_elemnts{
-	margin-top: 4vh;
+	margin-top: 3%;
 	display: flex;
 	width: 100%;
 	align-items: center;
 }
 
 .test-4-fn {}
-.test-4at {}
+.test-5-from{
+	margin-left: 50px;
+	white-space: nowrap;
+}
+.test-4at{
+	width: 60px;
+	margin-left: 30px;
+	white-space: nowrap;
+}
 .info_train {
 	width: 80%;
 	display: flex;
@@ -221,22 +241,43 @@ input::-webkit-inner-spin-button {
 }
 
 .input_person {
-	border-radius: 5px;
+	margin-left: 5%;
+	display: block;
 	background: #fff;
-	appearance: none;
+	color: black;
 	width: 5%;
 	height: 85%;
 	text-align: center;
 	font-size: 1.2em;
+
 }
 .collection_peson{
 	display: flex;
 	flex-direction: column;
+	margin-top: 3%;
+}
+
+.person_number{
+	font-size: 1.2em;
+	margin-left: 1%;
+}
+.person_map{
+	max-width: 35%;
+	min-width: 8%;
+	margin-left: 1.6%;
 }
 
 .info_person {
 	display: flex;
-	margin-top:5%;
+	margin-top: 1%;
+}
+
+.place_map{
+	margin-left: 8%;
+}
+
+.map_person{
+	display: flex;
 }
 .test-5-name {
 
@@ -251,13 +292,23 @@ input[type='number'] {
 
 .input{
 	height: 80%;
-	width: 20%;
+	max-width: 35%;
+	min-width: 8%;
+	font-size: 150%;
+	border: 1px solid #f0f0f0f0;
+	border-radius: 5px;
+	margin-left: 1%;
+	white-space: nowrap;
+}
+.count{
+	height: 80%;
+	width: 2%;
+	text-align: center;
 	font-size: 150%;
 	border: 1px solid #f0f0f0f0;
 	border-radius: 5px;
 	margin-left: 1%;
 }
-
 .number{
 	outline-style: none;
 	font-size: 150%;
@@ -272,17 +323,20 @@ input[type='number'] {
 .test-5-last {}
 .test-5-dob {}
 .test-5-doc {}
-.person_button {}
-.test-5-book{
-	width: 15%;
-	height: 70%;
-		
-	margin-top: 3%;
-	margin-left: 70%;
-	background: #fff;
-	border-radius: 3px;
-	color: black;
+.person_button {
 	display: flex;
+	margin: auto;
+	margin-top: 9%;
+	width: 170px;
+	height: 40px;
+	background: #fff;
+	align-items: center;	
 	justify-content: center;
-	align-items: center;
+	border-radius: 3px;	
+	cursor: default;	
+}
+
+.test-5-book{
+	
+	color: black;
 }
