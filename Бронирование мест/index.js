@@ -32,15 +32,16 @@ remove.addEventListener('click', function(){
 var addElement = function(){
 	var countCollection = (listPerson.children.length) - 1;
 	var personNumber = Number(number.value);
-	var element= person.cloneNode(true);
-	var result= personNumber - countCollection;
-		while(result > 0){
-			result--;
-			console.log(result);
-			listPerson.appendChild(element);
-			console.log(result);
-		}
-		if(personNumber < countCollection){
-			listPerson.children[countCollection].remove();
-		}
+	var result_one = personNumber - countCollection;
+	var result_two = countCollection  - personNumber  ;
+	while(result_one > 0){
+		var element= person.cloneNode(true);
+		result_one--;
+		listPerson.appendChild(element);
+	}
+	while(result_two > 0){
+		result_two--;
+		countCollection = (listPerson.children.length) - 1;
+		listPerson.children[countCollection].remove();
+	}
 }

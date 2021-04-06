@@ -118,8 +118,9 @@ nav{
 }
 
 .person_block{
-	height: 500px;
+	min-height: 300px;
 	border-radius: 5px;
+	transition: height 1s linear;
 	display: flex;
 	background-color:  hsla(252, 90%, 16%, 0.6);;
 	margin-top: 3%;
@@ -275,10 +276,10 @@ input[type='number'] {
 .person_button {}
 .test-5-book{
 	width: 15%;
-	height: 70%;
-		
+	height: 40px;
+	margin-bottom: 5%;	
 	margin-top: 3%;
-	margin-left: 70%;
+	margin-left: 67%;
 	background: #fff;
 	border-radius: 3px;
 	color: black;
