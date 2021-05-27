@@ -218,7 +218,7 @@ section{
 	border: 2px solid black;
 	background: none;
 	color: white;
-	transition: all 0.5s linear;
+	transition: .5s all;
 	
 	font-size: 1em;
 	padding: 10px 30px ;
@@ -527,12 +527,12 @@ input{
 	background-size: cover;
 }
 .sub_title {
-	padding-top: 2%;
-	font-size: 1.6em;
-	text-align: center;
+	padding-top: 3%;
+    font-size: 2em;
+    text-align: center;
 }
 .sub_input{
-	width: 50%;
+	width: 40%;
 	display: flex;
 	justify-content: space-between;
 	position: absolute;

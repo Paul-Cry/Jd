@@ -6,5 +6,6 @@ var server = http.createServer(function(req, res){
 	var myReadShorts = fs.createReadStream('../jd.html').pipe(res);
 });
 
+
 server.listen(3000, 'localhost');
 
