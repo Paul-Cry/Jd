@@ -46,9 +46,9 @@ header{
 
 nav{
 	width: 100%;
-	height:	8	%;
+	height:	8%;
 	color: white;
-	background:hsla(252, 90%, 16%, 0.815);	
+	background: hsla(252, 90%, 16%, 0.815);	
 	display: flex;
 	align-items: center;
 }
@@ -215,7 +215,7 @@ section{
 	display: block;
 	margin-top: 4%;
 	border-radius: 5px;
-	border: 2px solid grey;
+	border: 2px solid black;
 	background: none;
 	color: white;
 	transition: all 0.5s linear;
@@ -227,6 +227,7 @@ section{
 .two_button_text:hover{
 	background-color: #E8E8E8;
 	color: #000;
+	border-color: white;
 }
 
 
@@ -275,9 +276,8 @@ section{
  	
 
 .window_three{
-	margin-top: 3vh;
 	display: block;
-	min-height: 300px;
+	min-height: 600px;
 	width: 100%;
 	background: linear-gradient(90deg, hsla(252, 90%, 16%, 0.815) 0%, hsla(252, 90%, 16%, 0.815) 0%), url("images/im-196106.jpeg") no-repeat;
 	background-size: cover;
@@ -290,8 +290,6 @@ section{
 	font-size:1.6em;
 	text-align: center;
 	padding-top:5%;
-	margin-top: 4%;
-
 }
 
 .position__three{
@@ -316,7 +314,7 @@ section{
 .date{
 	width: 20%;
 }
-.test-0-fdt, .test-0-fat{
+.test-0-fdt, .test-0-fat, .test-0-fa, .test-0-fd{
 	opacity: 40%;
 	font-weight: 400;
 
@@ -326,6 +324,7 @@ input:focus{
 	opacity: 100%;
 	outline: none;
 }
+
 input[type='number'] {
     -moz-appearance:textfield;
 }
@@ -383,7 +382,7 @@ input{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	height: 30%;
+	height: 200px;
 	width: 80%;
 	padding: 3%;
 	margin: 10% auto;
@@ -522,17 +521,13 @@ input{
 }
 
 .subscription {
-	margin-top: 3%;
 	width: 100%;
 	height: 50vh;
 	position: relative;
-	background: linear-gradient(90deg, hsla(252, 90%, 16%, 0.815) 0%, hsla(252, 90%, 16%, 0.815) 0%), url("images/russian-train-in-snow.jpg") no-repeat;
 	background-size: cover;
 }
 .sub_title {
-	padding-top: 1vw;
-	color: white;
-
+	padding-top: 2%;
 	font-size: 1.6em;
 	text-align: center;
 }
@@ -553,13 +548,22 @@ input{
 	margin-left: 1%;
 	width: 60%;
 	padding-left: 3vh;
+	box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+
 }
 .test-0-sbs {
-	font-size: 120%;
-	border: 1px solid #f0f0f0f0;
+	font-size: 120%; 
+	border: 1px solid #000000f0;
 	border-radius: 5px;
-	padding: 10px 0;
-	width: 30%;
+	padding: 10px 30px;
+	background-color: none;
+	transition: .5s all;
+	cursor: pointer;
+}
+
+.test-0-sbs:hover{
+		background: #000;
+		color: white;
 }
 
 
@@ -676,7 +680,6 @@ a{
 	}
 	.two_text{
 		flex-direction: column;
-		margin-top: ;
 		width: 300px;
 	}
 	.two_button_text{
@@ -791,6 +794,8 @@ a{
 		margin:auto;
 		margin-top: 60px;
 	}
+
+
 	.sd{
 		
 	}
