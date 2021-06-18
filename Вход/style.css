@@ -16,7 +16,7 @@ body{
 	font-family: 'Robot';
 
 	background-repeat: no-repeat;
-	background: linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.3) 0%),  ;
+	background: linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.3) 0%) ;
 	background-size: cover;
 }
 
@@ -39,7 +39,7 @@ input:focus{
 	color: white;
 	border-radius: 2px;
 	box-shadow: 0 0 50px  10px hsla(252, 90%, 16%, 0.815);
-	background: linear-gradient(-45deg, rgba(255, 0, 0, 0.6) 50%, hsla(252, 90%, 16%, 0.6) 50%),url(../images/c1_1769069.jpg) no-repeat;
+	background: linear-gradient(-45deg, rgba(255, 0, 0, 0.6) 50%, hsla(252, 90%, 16%, 0.6) 50%),url(./c1_1769069.jpg) no-repeat;
 }
 .text_goroup{
 	height: 60px;

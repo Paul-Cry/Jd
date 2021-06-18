@@ -1,40 +1,47 @@
+let burger = document.querySelector('.burger')
+let line = burger.children
+let exit = line[3].children[0]
 
-let date = document.querySelectorAll('.date')
-let stock =document.querySelector('.block_stock');
-let left = document.querySelector('.arrow1');
-let right = document.querySelector('.arrow2');
 
-console.log(pageWidth);
 
-for(let element of date){
-	console.log(element)
-	element.onfocus = function(){
-		console.log(date)
-		element.setAttribute('type', 'date');
+let changeClass = ()=>{
+	burger.classList.toggle('animation')
+	line[0].classList.toggle('easy');
+	line[1].classList.toggle('easy');
+	line[2].classList.toggle('easy');
+	line[3].classList.toggle('easy');
+	line[3].classList.toggle('show');
+}
 
-	}
-	element.onblur = function(){
-		element.setAttribute('type', 'text');
-	}
+burger.onclick = ()=>{
+
+	changeClass()
+}
+console.log(line[3])
+
+exit.children[0].onclick = ()=>{
+	animation = 'exi 1s ease forwards'
+	changeClass()
+	console.log(line[3])
 }
 
 
-left.addEventListener('click', function(){
-	stock.style.transform = 'translateX(0px)';
-})
 
-
-
-right.addEventListener('click', function(){
-	const pageWidth = document.documentElement.scrollWidth;
-	if( pageWidth <'430'){
-	stock.style.transform = 'translateX(-1025px)';
-	}else{
-		stock.style.transform = 'translateX(-1025px)';
-	}
-	
-})
-
+$('.block_stock').slick({
+	infinite: true,
+	slidesToShow: 2,
+	slidesToScroll: 3,
+	centerPadding: '100px',
+	dots: true,
+	responsive:[{
+			breakpoint: 575,
+			settings : {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+			}
+		}
+	]
+  });
 
 
 
